@@ -1,17 +1,3 @@
-/*const magicians: string[] = ['Merlin', 'Gandalf', 'Houdini'];
-function make_great(magicianArray: string[]): void {
-  for (let i = 0; i < magicianArray.length; i++) {
-    magicianArray[i] = `the Great ${magicianArray[i]}`;
-  }
-}
-
-function show_magician(magicianArray: string[]): void {
-  for (let i=0; i<=magicianArray.length;i++) {
-    console.log(magicianArray[i]);
-  }
-}
-make_great(magicians);
-show_magician(magicians);*/
 
 // Define an array of magician names
 const magicians: string[] = ["Merlin", "Houdini", "Gandalf", "Copperfield"];
