@@ -4,6 +4,5 @@ function show_magicianss(magicians: string[]): void {
     }
 }
 
-const magicianNames: string[] = ["Magician 1", "Magician 2", "Magician 3", "Magician 4"];
-
-show_magicianss(magicianNames);
+const magician: string[] =  ["Magician 1", "Magician 2", "Magician 3", "Magician 4"];
+show_magicianss(magician);
