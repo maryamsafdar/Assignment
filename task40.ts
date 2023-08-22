@@ -1,26 +1,23 @@
-interface Album{
-    artist:string,
-    title:string,
-    tracks?:number,
-}
 
-function make_album(artist:string,title:string,tracks?:number){
-    const album:Album ={
+function make_Album(artist: string, title: string, tracks?: number): any {
+    const album: any = {
         artist: artist,
-        title: title,
-    }
-    
-    if (tracks !== undefined){
-    album.tracks =tracks;
+        title: title
+    };
 
+    if (tracks !== undefined) {
+        album.track = tracks;
     }
+
     return album;
 }
 
-const album1 = make_album("Artist 1", "Album 1");
-const album2 = make_album("Artist 2", "Album 2", 10);
-const album3 = make_album("Artist 3", "Album 3", 8);
+// Create albums using the makeAlbum function
+const album1 = make_Album("Artist 1", "Album Title 1");
+const album2 = make_Album("Artist 2", "Album Title 2", 10);
+const album3 = make_Album("Artist 3", "Album Title 3", 5);
 
+// Print the album information
 console.log(album1);
 console.log(album2);
 console.log(album3);
