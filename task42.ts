@@ -1,4 +1,4 @@
-const magicians: string[] = ["Magician1", "Magician2", "Magician3", "Magician 4"];
+const magicians: string[] = ["Magician 1", "Magician 2", "Magician 3", "Magician 4"];
 
 function show_magician(magicians: string[]): void {
     for (let i=0;i<magicians.length; i++) {

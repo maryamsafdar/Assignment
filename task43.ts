@@ -4,10 +4,11 @@ function show_magicians(magicians: string[]): void {
   }
 }
 
+
 function make_great(magiciansArray: string[]): string[] {
   const modifiedMagicians: string[] = [];
-for (const magician of magiciansArray) {
-      modifiedMagicians.push("the Great " + magician);
+for (let i=0;i<magiciansArray.length;i++) {
+      modifiedMagicians.push("the Great " + magiciansArray[i]);
   }
 return modifiedMagicians;
 }
@@ -23,3 +24,5 @@ show_magicians(greatMagicians);
 console.log("\nUnchanged Magicians:");
 show_magicians(magicians1);
  
+
+
