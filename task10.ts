@@ -1,6 +1,6 @@
 /*
  Program: subtractTwoNumbers
- Author: Your Name
+ Author: Maryam Safdar
  Date: July 30, 2023
  Description: This program calculates the subtract of two numbers and prints the result.
  */
@@ -15,7 +15,7 @@ console.log(`The subtract of ${num5} and ${num6} is: ${subtract}`);
 
 /*
  Program: evenOrOdd
- Author: Maryam
+ Author: Maryam Safdar
  Date: July 30, 2023
  Description: This program checks if a given number is even or odd and prints the result.
  */

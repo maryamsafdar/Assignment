@@ -6,29 +6,30 @@ const guestList4: string[] = [
   ];
   
    for(let i=0; i<guestList4.length; i++){
-     
       console.log(`Dear ${guestList4[i]}, you are cordially invited to dinner. Please join us for an evening of great conversation.`);
-    
-  }
+    }
+
   let removeGuest3 = "Maryam Safdar";
   console.log( `${removeGuest3} can not make it on the dinner`);
+
   let inviteGuest3 ="Nida";
   let removeGuestIndex3 =guestList4.indexOf(removeGuest3);
+
   if(removeGuestIndex3 !== -1){
     guestList4[removeGuestIndex3] =inviteGuest3;
     console.log(`${removeGuest3} can't make it to the dinner.`);
 
   }
   console.log(guestList4);
+
   for(let j=0;j<guestList4.length;j++){
     console.log(`Dear ${guestList4[j]}, you are cordially invited to dinner. Please join us for an evening of great conversation.`)
   }
   
 console.log("Good news! We found a bigger dinner table.");
+
 guestList4.unshift("Maryam");
-
-guestList4.splice((guestList4.length / 2), 0, "Iqra");
-
+guestList4.splice(3, 0, "Iqra");
 guestList4.push("Laiba");
 
 for(let k=0; k<guestList4.length ;k++)
